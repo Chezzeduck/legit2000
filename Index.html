@@ -42,7 +42,26 @@
 <textarea type="text" name="Gave" rows="5" class="textarea is-medium is-hovered"> </textarea>
 <br>
 <p> Antal gave/r? </p>
-<input type="text" name="Antal"></input>
+<div class="field" name="Antal">
+  <div class="control">
+    <div class="select is-hovered">
+      <select>
+      	<option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option> &#60;11 </option>
+      </select>
+    </div>
+  </div>
+</div>
 <br>
 <p> Postnummer:</p>
 <input type="text" name="postnr"></input>
@@ -67,14 +86,29 @@
         <option>16</option>
         <option>17</option>
         <option>18</option>
-        <option> &#60;18 </option>
+        <option> &#60;19 </option>
       </select>
     </div>
   </div>
 </div>
 <br>
 <p> Værdien på Gaven? </p>
-<input type="text" name="Money"></input>
+<div class="field" name="Moneys">
+  <div class="control">
+    <div class="select is-hovered">
+      <select>
+        <option> >50kr </option>
+        <option> 51kr - 100kr</option>
+        <option> 101kr - 500kr</option>
+        <option>501kr - 1000kr</option>
+        <option>1001kr - 3000kr</option>
+        <option>3001kr - 5000kr</option>
+        <option>5001kr - 10000kr</option>
+        <option> &#60;10000kr </option>
+      </select>
+    </div>
+  </div>
+</div>
 <br>
 <br>
 <button type="submit" class="button is-light is-medium is-hovered is-centered ">Send</button>
